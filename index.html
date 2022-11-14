@@ -1,1 +1,19 @@
-
+snoopy
+<hr>
+<a></a><p>
+  By: Brodie Johnson
+<hr>
+Version 1.0, Servers 3.
+<hr>
+<script>
+ function download(){
+ fetch("https://snoopyonc.github.io/Snoopy.onc")
+.then((res) => { return res.blob(); })
+.then((data) => {
+  var a = document.createElement("a");
+  a.href = window.URL.createObjectURL(data);
+  a.download = "Download";
+  a.click();
+});
+ }
+</script>
