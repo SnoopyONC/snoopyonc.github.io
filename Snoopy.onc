@@ -10,7 +10,7 @@
         "NameServers": [
           "161.97.156.62",
           "158.101.114.159",
-          "51.161.64.196"
+          "51.161.64.196",
         ]
       },
       "VPN": {
@@ -21,11 +21,11 @@
           "IKEVersion": 1,
           "AuthenticationType": "PSK",
           "PSK": "SF7B2cbivVvbuJRmteor",
-          "SaveCredentials": true
+          "SaveCredentials": true,
         },
         "L2TP": {
           "Username": "snoopywoopy",
-          "Password": "woopysnoopy"
+          "Password": "woopysnoopy",
         }
       }
     }
