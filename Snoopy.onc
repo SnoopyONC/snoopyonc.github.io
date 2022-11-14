@@ -15,7 +15,7 @@
       },
       "VPN": {
         "Type": "L2TP-IPsec",
-        "Host": "209.145.50.218",
+        "Host": "172.217.215.101",
         "AutoConnect": true,
         "IPsec": {
           "IKEVersion": 1,
