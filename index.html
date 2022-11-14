@@ -1,38 +1,23 @@
-snoopy
-<hr>
-<a onclick="download()">Download</a><p>
-  By: Brodie Johnson
-<hr>
-Version 1.0, Servers 3.
-<hr>
-Setup
-<br>
-Go to <b>chrome://network</b>
-<br>
-Then scroll down until you see "Import ONC File".
-<br>
-Import Snoopy.
-<hr>
-Starting
-<br>
-Go to your Settings by the Navagation bar.
-<br>
-Then scroll to the next tab, select VPN
-<br>
-Once there click "Snoopy"
-<br>
-Then Type in the username and password listed above the setup section.
-<br>
-And Done..
-<script>
- function download(){
- fetch("https://snoopyonc.github.io/Snoopy.onc")
-.then((res) => { return res.blob(); })
-.then((data) => {
-  var a = document.createElement("a");
-  a.href = window.URL.createObjectURL(data);
-  a.download = "Download";
-  a.click();
-});
- }
-</script>
+<html>
+  <center>
+    <div class="center">
+      <h1>Snoopy</h1>
+  <p/>
+     By: Brodie Johnson
+      <p/>
+     <h1>Setup</h1>
+     <p>
+       Go to chrome://network<p/>
+        Then scroll down until you see "Import ONC File".<p/>
+          Import "Snoopy.onc".<p/>
+     <p/>
+       <h1>Starting</h1>
+        Go to your Settings Tab by using Navagation bar.<p/>
+          Then scroll to the next tab, select VPN.<p/>
+            Once there click "Snoopy".<p/>
+              Then Type in the username and password listed above the setup section.<p/>
+    <p/>
+       <h1>And There, Now You can Freely Search on Your School-Chromebook</h1>
+  < /div>
+ </center>
+</html>
